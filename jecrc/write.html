@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Writer's Corner</title>
+    <script src="https://hinkhoj.com/common/js/keyboard.js"></script>
+<link rel="stylesheet" type="text/css"
+href="https://hinkhoj.com/common/css/keyboard.css" />
+
+</head>
+<center>
+<body style="background-color: black; color: goldenrod;">
+    <!-- User Profile Section -->
+    <section id="user-profile">
+        <!-- Display user's profile picture, bio, and stats -->
+        <!-- Allow editing of user profile information -->
+    </section>
+    <!-- Submission Form -->
+    <section id="submission-form">
+        <h2 style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 40px;">Submit Your Work</h2>
+        <!-- Include more fields like genre, tags, image uploads -->
+        <form action="submit_work.php" method="post">
+            <!-- Add more fields as needed -->
+            <label for="workType">Select Work Type:</label>
+            <select name="workType" id="workType">
+                <option value="story">Story</option>
+                <option value="poetry">Poem</option>
+                <option value="shayari">Shayari</option>
+            </select><br>
+            <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilingual Input</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+</body>
+</select><br>
+<label for="workContent">Your Work:</label><br>
+<p style="font-size: 30px;">Type in english</p>
+<textarea name="workContent" id="workContent" rows="5" cols="40" required style="position: relative; top: -20px; border-radius: 10px;"></textarea >
+<p style="font-size: 30px;">Type in hindi</p>
+ <script language="javascript">
+        CreateCustomHindiTextArea("id 1","",90,5,true);
+        </script><br>
+<!-- Add image upload option -->
+<input type="file" name="image" accept="image/*" style="border-radius: 15px;"><br><br>
+<span>
+<a href="thanks.html"><input type="submit" value="Submit Work" style="border-radius: 15px;  width: 10vw;height: 5vh;"></a>
+<a href="write.html"><input type="submit" value="Edit Work" style="border-radius: 15px; width: 10vw;height: 5vh;"></a>
+</span>
+</select>
+</form>
+</section>
+</body>
+</center>
+</head>
+</html>

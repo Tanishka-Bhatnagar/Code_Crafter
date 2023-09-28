@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Your Education Website</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color:goldenrod
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: black;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: goldenrod; font-size: 80px; text-align: center;">About Us</h1>
+        <p>Welcome to our Story sharing Website, where one can share his <b> STORIES , POETRIES,SHAYARIS.</b></p>
+        
+        <h2 style="font-size: 30px; ">Our Mission</h2>
+        <p>Our mission is to provide a common platform for all users to share their stories,poems and shaayari.</p>
+        
+        <h2 style="font-size: 30px; ">Our Team</h2>
+        <p>We have a dedicated team of creative thinkers who are passionate about writing. Meet our team:</p>
+        
+        <ul>
+            <li><strong>Tanishka Bhatnagar</strong> - Team Co-ordinator</li>
+            <li><strong>Palak Agrawal</strong> - Team member</li>
+            <li><strong>Palak Kawadia</strong> - Team member</li>
+            <li><strong>Sakshi Agarwal</strong>- Team member</li>
+        </ul>
+        <h2 style="font-size: 30px; ">Contact Us</h2>
+        <p>If you have any questions or inquiries, please don't hesitate to contact us:<br>
+            Gmail:abcd@gmail.com<br>
+            Mobile no:7765474576<br>
+        <!-- Comment Section -->
+    <section id="comments">
+        <h2 style="font-size: 30px; ">Feedback</h2>
+        <!-- Comments will be displayed here -->
+    </section>
+
+    <!-- Comment Form -->
+    <section id="feedback-form">
+        <h3>Add feedback</h3>
+        <form action="submit_comment.php" method="post">
+            <label for="commentContent">Feedback:</label><br>
+            <textarea name="commentContent" id="commentContent"  rows="3" cols="40" required></textarea><br>
+
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </section>
+
